@@ -2,6 +2,7 @@ ep_data/
 img/
 .DS_Store
 
+results_bha2/dataset
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
