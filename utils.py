@@ -6,7 +6,7 @@ import warnings
 os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"  # Enable fallback for MPS backend
 import torch
 
-from config import DTYPE, USE_GPU   # Default data type for torch tensors
+from .config import DTYPE, USE_GPU   # Default data type for torch tensors
 
 # Helpful tensor processing functions
 

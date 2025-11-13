@@ -11,8 +11,8 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 import torch
 
-from utils import numpy_to_torch
-import optimizers
+from .utils import numpy_to_torch
+from . import optimizers
 
 def theta_cache(method):
     # A simple cache decorator for class methods that saves only the most recent result.

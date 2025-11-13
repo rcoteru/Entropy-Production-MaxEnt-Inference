@@ -4,9 +4,9 @@
 
 import numpy as np
 
-import optimizers
-import linear_solvers
-from utils import numpy_to_torch, torch_to_numpy
+from . import optimizers
+from . import linear_solvers
+from .utils import numpy_to_torch, torch_to_numpy
 
 
 

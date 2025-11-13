@@ -3,7 +3,7 @@ from collections import namedtuple
 from collections.abc import Iterable
 import numpy as np
 
-import linear_solvers
+from . import linear_solvers
 
 # A few useful functions. These work with both torch tensors and numpy arrays
 def is_infnan(x): # return True if x is either infinite or NaN

@@ -55,6 +55,7 @@ for observable_ix, observable_desc in enumerate(["x'ᵢxⱼ−xⱼ'xᵢ", "(x'�
     np.random.seed(42) # Set seed for reproducibility of holdout shuffles
     train, val, test = data.split_train_val_test()
 
+
     stime            = time.time()
     sigma_N_obs, _   = ep_estimators.get_EP_Newton1Step(train, validation=val, test=test)
     time_N_obs       = time.time() - stime
